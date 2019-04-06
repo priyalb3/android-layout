@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" android:paddingTop="10dp" android:paddingRight="10dp"
+             android:paddingLeft="10dp">
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:gravity="right|center_horizontal|fill">
+
+        <TextView
+                android:text="Welcome to Table View"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textView3" android:textStyle="bold"
+                android:textSize="24sp" android:gravity="fill_horizontal"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Example Row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView4" android:textStyle="bold"
+                android:textSize="18sp"/>
+        <TextView
+                android:text="Example Row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView6" android:textStyle="bold"
+                android:textSize="24sp"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Example Row"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/textView5" android:textStyle="bold"
+                android:textSize="24sp"/>
+    </TableRow>
+</TableLayout>

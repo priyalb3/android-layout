@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Using Layouts</string>
+    <array name="insert_list">
+        <item>Yash</item>
+        <item>Raj</item>
+        <item>Rahul</item>
+        <item>Priyal</item>
+        <item>Pushpa</item>
+        <item>Tulika</item>
+        <item>Nency</item>
+        <item>Denisha</item>
+        <item>Ravi</item>
+        <item>UPG</item>
+    </array>
+</resources>

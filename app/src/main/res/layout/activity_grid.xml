@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+            android:text="Welcome to Grid View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView9" android:textSize="24sp"
+            android:textStyle="bold"/>
+    <Button
+            android:text="TP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+    <TextView
+            android:text="369"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView10" android:textSize="24sp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/imageView"/>
+</GridLayout>
